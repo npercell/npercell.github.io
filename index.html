@@ -7,85 +7,98 @@
 <link href='http://fonts.googleapis.com/css?family=Oswald:300|Patua+One' rel='stylesheet' type='text/css'>
 <style>
 
-	html {
-		background: darkkhaki;
-		background: linear-gradient(
-		  to bottom,
-		  darkkhaki,
-		  darkkhaki 50%,
-			#aea85d 50%,
-			#aea85d
-		);
-		background-size: 100% 150px;
-	}
+  html {
+    background: linear-gradient(
+      to bottom,
+      whitesmoke,
+      whitesmoke 50%,
+      #fff 50%,
+      #fff
+    );
+    background-size: 100% 150px;
+    background: #fff;
 
-	body {
-		color: whitesmoke;
-		text-shadow: 1px 1px 1px rgba(0,0,0,.4);
-		text-align: center;
-		padding: 114px 25px;
-		font-family: 'Oswald', sans-serif;
-		font-size: 24px;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		border-top: 3px solid palevioletred;
-		margin: 0;
-	}
-	h1 {
-		font-size: 60px;
-		line-height: 60px;
-		font-weight: normal;
-		font-family: 'Patua One', cursive;
-		text-transform: none;
-	}
+  }
 
-	a {
-		font-size: 16px;
-		text-decoration: none;
-		color: khaki;
-		text-shadow: none;
-		display: inline-block;
-		padding: 10px;
-		border-radius: 2px;
-		-webkit-3transition: all .5s;
-		transition: all .5s;
-		margin-top: 7px;
-		margin-bottom: 25px;
-	}
-	p {
-		font-size: 21px;
-	}
-	p:last-child {
-		font-size: 16px;
-	}
-	a:hover {
-		background-color: palevioletred;
-	}
-	@media (max-width: 600px)  {
-		body {
-			padding-top: 124px;
-		}
-		h1 {
-			font-size: 45px;
-			margin-bottom: 14px;
-		}
-		p {
-			margin-top: 14px;
-		}
-		a {
-			margin-top: 2px;
-		}
-	}
+  body {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.15);
+    text-align: center;
+    padding: 114px 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 3px solid palevioletred;
+    margin: 0;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: normal;
+    font-family: 'Patua One', cursive;
+    text-transform: none;
+    text-shadow: 0 0 10px rgba(0,0,0,.15);
+    color: #fff
+  }
+
+  a {
+    color: lightpink;
+    text-decoration: none;
+    text-shadow: none;
+  }
+  a:hover {
+    color: palevioletred;
+  }
+
+  a.btn {
+    font-size: 16px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 2px;
+    -webkit-3transition: all .5s;
+    transition: all .5s;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    background-color: lightpink;
+  }
+  p {
+    font-size: 21px;
+  }
+  p:last-child {
+    font-size: 16px;
+  }
+  a.btn:hover {
+    background-color: palevioletred;
+  }
+  @media (max-width: 600px)  {
+    body {
+      padding-top: 124px;
+    }
+    h1 {
+      font-size: 45px;
+      margin-bottom: 14px;
+    }
+    p {
+      margin-top: 14px;
+    }
+    a {
+      margin-top: 2px;
+    }
+  }
 </style>
 </head>
 
 <body>
 <h1>Nate Percell</h1>
-<p>Does Illustration &bull; Web Development &bull; Design</p>
+<p>Takes Pictures of Birds &bull; Curls &bull; Builds Software</p>
 
-<a href="mailto:npercelldesign@gmail.com" target="_blank">Contact him</a>
+<a class="btn" href="mailto:npercelldesign@gmail.com" target="_blank">Contact him</a>
 
-<p>(Also does curling)</p>
+<p><a href="https://www.instagram.com/natepercell/">Instagram</a></p>
 
 </body>
 </html>
