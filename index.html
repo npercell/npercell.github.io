@@ -20,42 +20,45 @@
     background: rgb(2,0,36);
     background: linear-gradient(152deg, rgba(121,9,113,1) 0%, rgba(0,212,255,1) 100%); */
     background: url("bg.jpg") no-repeat 50%;
+    background-size: cover;
   }
 
   body {
     color: whitesmoke;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.15);
-    text-align: center;
-    padding: 114px 25px;
+    text-align: left;
+    padding: 25px;
     font-family: 'Oswald', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-top: 3px solid orange;
+    /* border-top: 3px solid orange; */
     margin: 0;
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
   }
   h1 {
     font-size: 60px;
     line-height: 60px;
-    font-weight: normal;
-    font-family: 'Patua One', cursive;
+    font-weight: 300;
+    /* font-family: 'Patua One', cursive; */
     text-transform: none;
-    text-shadow: 0 0 10px rgba(0,0,0,.15);
-    color: #fff
+    text-shadow: none;
+    color: #fff;
+    margin: 0;
+    letter-spacing: -.5px;
   }
 
   a {
-    color: #ffba00;
+    color: peru;
     text-decoration: none;
-    text-shadow: none;
+    font-size: 16px;
+    margin-right: 10px;
+
   }
   a:hover {
-    color: orange;
+    color: sienna;
   }
 
   a.btn {
-    font-size: 16px;
     text-decoration: none;
     color: whitesmoke;
     text-shadow: none;
@@ -66,7 +69,7 @@
     transition: all .5s;
     margin-top: 7px;
     margin-bottom: 15px;
-    background-color: #ffba00;
+    background-color: #feb301;
   }
   p {
     font-size: 21px;
@@ -78,9 +81,6 @@
     background-color: orange;
   }
   @media (max-width: 600px)  {
-    body {
-      padding-top: 124px;
-    }
     h1 {
       font-size: 45px;
       margin-bottom: 14px;
@@ -98,10 +98,11 @@
 <body>
 <h1>Nate Percell</h1>
 <p>Takes Pictures of Birds &bull; Curls &bull; Builds Software</p>
+<div>
+  <a class="btn" href="mailto:npercelldesign@gmail.com" target="_blank">Contact him</a>
+  <a href="https://www.instagram.com/natepercell/">Instagram</a>
+</div>
 
-<a class="btn" href="mailto:npercelldesign@gmail.com" target="_blank">Contact him</a>
-
-<p><a href="https://www.instagram.com/natepercell/">Instagram</a></p>
 
 </body>
 </html>
